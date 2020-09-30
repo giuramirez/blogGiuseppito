@@ -1,9 +1,28 @@
+*{
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecera{
+    color: blueviolet;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 20rem;
+    text-align: center;
+    border: 0.3rem solid black;
+}
+
 .titulos{
     color: blue;
+    width: 30rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 0.3rem solid burlywood;
+    text-align: center;
 }
 
 .span{
     color: red;
+    width: 30rem;
+    border: 0.3rem solid greenyellow;
+    text-align: center;
 }
 
