@@ -26,3 +26,15 @@
     text-align: center;
 }
 
+.contenedorFooter{
+    color: white;
+    background-color: blueviolet;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
