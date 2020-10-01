@@ -1,28 +1,46 @@
 *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorHeader{
+    width: 100%;
+    height: 35rem;
+    display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .cabecera{
-    color: blueviolet;
+    color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    width: 20rem;
-    text-align: center;
-    border: 0.3rem solid black;
+    font-weight: bold;
+    width: 33.33%;
+    height: 5rem;
+    border: 0.1rem solid black;
+    background-color: blueviolet;
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
 }
 
 .titulos{
-    color: blue;
-    width: 30rem;
+    color: blueviolet;
+    width: 33.33%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border: 0.3rem solid burlywood;
+    border: 0.1rem solid burlywood;
     text-align: center;
+    height: 5rem;
 }
 
 .span{
-    color: red;
-    width: 30rem;
-    border: 0.3rem solid greenyellow;
+    color: blueviolet;
+    width: 33.33%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 0.1rem solid burlywood;
     text-align: center;
+    height: 7rem;
 }
 
